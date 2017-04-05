@@ -7,7 +7,7 @@ int validacionFactorial (float numero)
     else
     {
         int ent=(int)numero;
-        if( (numero-ent) ==0)
+        if(numero-ent ==0)
         {
             return 1;
         }
@@ -17,31 +17,3 @@ int validacionFactorial (float numero)
         }
     }
 }
-
-int validarOperaciones (int flagA, int flagB)
-{
-    int resultado;
-    if (flagA == 0 && flagB == 0)
-    {
-        resultado = 1;
-        return resultado;
-    }
-    else if (flagA == 0 && flagB == 1)
-    {
-        resultado = 2;
-        return resultado;
-    }
-    else if (flagA == 1 && flagB == 0)
-    {
-        resultado = 3;
-        return resultado;
-    }
-    else
-    {
-        resultado = 4;
-        return resultado;
-    }
-
-}
-
-

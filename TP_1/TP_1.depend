@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1491169162 source:c:\users\sergio\documents\github\tp_laboratorio_1\tp_1\funciones.c
+
+1491387826 source:c:\users\sergio\documents\github\tp_laboratorio_1\tp_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"validaciones.h"
+
+1491169162 c:\users\sergio\documents\github\tp_laboratorio_1\tp_1\funciones.h
+
+1491387872 c:\users\sergio\documents\github\tp_laboratorio_1\tp_1\validaciones.h
+
+1491387826 source:c:\users\sergio\documents\github\tp_laboratorio_1\tp_1\validaciones.c
+
