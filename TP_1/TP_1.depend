@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
 1491169162 source:c:\users\sergio\documents\github\tp_laboratorio_1\tp_1\funciones.c
 
-1491387826 source:c:\users\sergio\documents\github\tp_laboratorio_1\tp_1\main.c
+1491522578 source:c:\users\sergio\documents\github\tp_laboratorio_1\tp_1\main.c
 	<stdio.h>
 	<stdlib.h>
 	"funciones.h"

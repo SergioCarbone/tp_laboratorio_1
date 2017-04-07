@@ -1,3 +1,14 @@
+/*******************************************************************
+*Programa:Calculadora
+*
+*Objetivo: Ingresar dos valores y poder hacer las siguientes operaciones: Sumar, restar, dividir, multiplicar y sacar el factorial.
+
+*Version: 07 de Abril de 2017
+
+*Autor:Sergio Hernan Carbone
+*
+********************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "funciones.h"
