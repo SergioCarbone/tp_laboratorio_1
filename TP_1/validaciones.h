@@ -1,3 +1,0 @@
-int validacionFactorial (float numero);
-
-
