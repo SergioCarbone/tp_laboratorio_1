@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1504462412 source:c:\users\sergio\desktop\tp_1_cascara\tp_1_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"validaciones.h"
+
+1504461825 source:c:\users\sergio\desktop\tp_1_cascara\tp_1_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"validaciones.h"
+
+1504461800 c:\users\sergio\desktop\tp_1_cascara\tp_1_cascara\funciones.h
+
+1504461551 c:\users\sergio\desktop\tp_1_cascara\tp_1_cascara\validaciones.h
+
+1504462412 source:c:\users\sergio\desktop\tp_1_cascara\tp_1_cascara\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"validaciones.h"
+
