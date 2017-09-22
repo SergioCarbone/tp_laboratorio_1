@@ -23,3 +23,45 @@
 	"funciones.h"
 	"validar.h"
 
+1506078306 source:c:\users\sergio\desktop\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"validar.h"
+
+1506078164 c:\users\sergio\desktop\tp_2_cascara\funciones.h
+
+1505674637 c:\users\sergio\desktop\tp_2_cascara\validar.h
+
+1505674720 source:c:\users\sergio\desktop\tp_2_cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"validar.h"
+
+1506078252 source:c:\users\sergio\desktop\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"validar.h"
+
+1506079249 source:c:\users\sergio\documents\github\tp_laboratorio_1\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"validar.h"
+
+1506078164 c:\users\sergio\documents\github\tp_laboratorio_1\tp_2_cascara\funciones.h
+
+1505674637 c:\users\sergio\documents\github\tp_laboratorio_1\tp_2_cascara\validar.h
+
+1505674720 source:c:\users\sergio\documents\github\tp_laboratorio_1\tp_2_cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"validar.h"
+

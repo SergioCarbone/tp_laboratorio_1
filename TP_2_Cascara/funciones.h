@@ -21,5 +21,5 @@ int persona_initArray (EPersona* arrayPersona, int longitud);
 int persona_obtenerEspacioLibre (EPersona* arrayPersona, int longitud);
 int persona_cargarPersona (EPersona* arrayPersona,int longitud);
 int persona_borrarPersona (EPersona* arrayPersona, int longitud);
-int persona_ordenarPorInsercion (EPersona* arrayPersona,int longitud);
+void persona_ordenarPorNombre(EPersona* arrayPersona,int longitud);
 void imprimirGraficoEdades(EPersona* arrayPersona,int longitud);

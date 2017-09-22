@@ -27,7 +27,7 @@ int main()
                 persona_borrarPersona(arrayPersona,CANTIDAD);
                 break;
             case 3:
-                persona_ordenarPorInsercion(arrayPersona,CANTIDAD);
+                persona_ordenarPorNombre(arrayPersona,CANTIDAD);
                 break;
             case 4:
                 imprimirGraficoEdades(arrayPersona,CANTIDAD);

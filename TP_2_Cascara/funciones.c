@@ -128,51 +128,34 @@ int persona_borrarPersona (EPersona* arrayPersona, int longitud)
  * Ordena el array por nombre
  * \param array pasado por parametro
  * @param longitud es la cantidad de posiciones que tiene el array
- * \return 0 si se logro hacer alguna modificacion o -1 si no se pudo
- *
  */
-int persona_ordenarPorInsercion (EPersona* arrayPersona,int longitud)
+void persona_ordenarPorNombre(EPersona* arrayPersona,int longitud)
 {
+
     int i,j;
-    int retorno = -1;
-    char auxNombre[51];
-    char auxDni[10];
-    int auxEdad;
+    EPersona nombre;
 
-    for(i=1; i<longitud; i++)
+    for(i=0; i< longitud; i++)
     {
-        if(arrayPersona[i].estado == ESTADO_OCUPADO)
+        for(j=i+1; j<longitud; j++)
         {
-            strncpy(auxNombre,arrayPersona[i].nombre,51);
-            strncpy(auxDni,arrayPersona[i].dni,10);
-            auxEdad = arrayPersona[i].edad;
-            j=i-1;
-
-            if((strcmp(auxNombre,arrayPersona[j].nombre)<0) && j>=0)
+            if(stricmp(arrayPersona[i].nombre,arrayPersona[j].nombre)>0)
             {
-                strcpy(arrayPersona[j+1].nombre,arrayPersona[j].nombre);
-                strcpy(arrayPersona[j+1].dni,arrayPersona[j].dni);
-                arrayPersona[j+1].edad = arrayPersona[j].edad;
-                j--;
+                nombre = arrayPersona[i];
+                arrayPersona[i] = arrayPersona[j];
+                arrayPersona[j] = nombre;
             }
-            strcpy(arrayPersona[j+1].nombre,auxNombre);
-            strcpy(arrayPersona[j+1].dni,auxDni);
-            arrayPersona[j+1].edad = auxEdad;
-            retorno = 0;
         }
     }
-
-    for(i=0; i<longitud ; i++)
+    printf("\n\nNombre\tdni\tEdad\n");
+    for(i=0; i<longitud; i++)
     {
         if(arrayPersona[i].estado == ESTADO_OCUPADO)
         {
-
-            printf("\n%d\t%s\t\t%d\t\t%s",i,arrayPersona[i].nombre,arrayPersona[i].edad,arrayPersona[i].dni);
+            printf("%s   %s   %d\n",arrayPersona[i].nombre,arrayPersona[i].dni,arrayPersona[i].edad);
         }
     }
-    return retorno;
 }
-
 
 
 void imprimirGraficoEdades(EPersona* arrayPersona,int longitud)
